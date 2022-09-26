@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Grass And Flowers Pack 1/Example Scene/Example Scene.unity
+- path: Assets/Yughues Free Palm Trees/Demo/Preview.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
