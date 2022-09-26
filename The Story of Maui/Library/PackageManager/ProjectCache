@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637998131850000000
-    m_Hash: 1118319988
+      ticks: 637998134400000000
+    m_Hash: 3910782580
   m_LockFileStatus:
     m_FilePath: /Users/keolaiseri/Desktop/Personal Coding/Unity/TheStoryOfMaui/The
       Story of Maui/Packages/packages-lock.json
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637998131850000000
-    m_Hash: 685181925
+      ticks: 637998134400000000
+    m_Hash: 577104584
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -223,7 +223,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.12
+    version: 2.0.16
   - name: com.unity.test-framework
     version: 1.1.29
   - name: com.unity.ext.nunit
@@ -354,13 +354,13 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.9
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.12
+- packageId: com.unity.ide.visualstudio@2.0.16
   testable: 0
   isDirectDependency: 1
-  version: 2.0.12
+  version: 2.0.16
   source: 1
   resolvedPath: /Users/keolaiseri/Desktop/Personal Coding/Unity/TheStoryOfMaui/The
-    Story of Maui/Library/PackageCache/com.unity.ide.visualstudio@2.0.12
+    Story of Maui/Library/PackageCache/com.unity.ide.visualstudio@2.0.16
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -424,13 +424,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637720564750000000
+  datePublishedTicks: 637914298680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 8d436ff053b9c59677b5e9799208143553cd02d9
+    revision: c01855ef6461b821ab0226135e96a4ee86de96be
     path: 
   unityLifecycle:
     version: 2.0.12
