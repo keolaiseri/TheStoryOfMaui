@@ -112,6 +112,8 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:CROSS_PLATFORM_INPUT
+-define:DIALOGUE_QUESTS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/Applications/Unity/Hub/Editor/2021.2.8f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
@@ -336,7 +338,12 @@
 -r:"/Users/keolaiseri/Desktop/Personal Coding/Unity/TheStoryOfMaui/The Story of Maui/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
 -r:"/Users/keolaiseri/Desktop/Personal Coding/Unity/TheStoryOfMaui/The Story of Maui/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"/Users/keolaiseri/Desktop/Personal Coding/Unity/TheStoryOfMaui/The Story of Maui/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor-firstpass.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Boxophobic.SkyboxCubemapExtended.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Boxophobic.Utils.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Boxophobic.Utils.Scripts.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -364,9 +371,14 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Blink/Art/Characters/LowPoly/Editor/MaterialTilingOffset.cs"
 "Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_AdvancedEdgeFluttering.cs"
 "Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_DetailsEnum.cs"
 "Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/Editor/CTI_ShaderGUI.cs"
+"Assets/DialogueQuests/Scripts/Editor/ImportPackage.cs"
+"Assets/DialogueQuests/Scripts/Editor/NarrativeConditionEditor.cs"
+"Assets/DialogueQuests/Scripts/Editor/NarrativeEffectEditor.cs"
+"Assets/PyroParticles/Prefab/Editor/PyroParticlesEditor.cs"
 -langversion:9.0
 
 /deterministic

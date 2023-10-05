@@ -1,0 +1,719 @@
+Unity Editor version:    2021.2.8f1 (d0e5f0a7b06a)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5 (Build 21G72)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/keolaiseri/Desktop/Personal Coding/Unity/TheStoryOfMaui/The Story of Maui
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56584
+Successfully changed project path to: /Users/keolaiseri/Desktop/Personal Coding/Unity/TheStoryOfMaui/The Story of Maui
+/Users/keolaiseri/Desktop/Personal Coding/Unity/TheStoryOfMaui/The Story of Maui
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 119.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/keolaiseri/Desktop/Personal Coding/Unity/TheStoryOfMaui/The Story of Maui/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56201
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001098 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 102.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.743 seconds
+Domain Reload Profiling:
+	ReloadAssembly (743ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (579ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005681 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/keolaiseri/Desktop/Personal Coding/Unity/TheStoryOfMaui/The Story of Maui/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/keolaiseri/Desktop/Personal Coding/Unity/TheStoryOfMaui/The Story of Maui/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 118.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.486 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1487ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1266ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (680ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3657 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (2.0 MB). Loaded Objects now: 4149.
+Memory consumption went from 311.9 MB to 309.9 MB.
+Total: 5.178671 ms (FindLiveObjects: 0.318636 ms CreateObjectMapping: 0.196354 ms MarkObjects: 3.980779 ms  DeleteObjects: 0.681867 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 217434.976075 seconds.
+  path: Assets/DialogueQuests/Logo.png
+  artifactKey: Guid(f430b93e1dcb3874c9624d9f74992c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Logo.png using Guid(f430b93e1dcb3874c9624d9f74992c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e4c0bbd90545099c80db8e011a5652') in 0.242554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.246291 seconds.
+  path: Assets/Fire Particle Systems/Resources/Textures/Particles.png
+  artifactKey: Guid(9061e98e3e59343abb561c58c425b8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fire Particle Systems/Resources/Textures/Particles.png using Guid(9061e98e3e59343abb561c58c425b8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3420c2f242f860b8ae91829765b18d') in 0.287529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Standard Assets/2D/Sprites/RobotBoyJumpSprite.png
+  artifactKey: Guid(9e1a2edf6149977479db158e4fbf9671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/2D/Sprites/RobotBoyJumpSprite.png using Guid(9e1a2edf6149977479db158e4fbf9671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e48e20e53ef3f8085353628d38c445') in 0.231007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Standard Assets/2D/Sprites/RobotBoyWalkSprite.png
+  artifactKey: Guid(feda0c18015b3284cabbc0da85254f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/2D/Sprites/RobotBoyWalkSprite.png using Guid(feda0c18015b3284cabbc0da85254f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b1376fd92dc6b0d2be7a5d9a97f270') in 0.158740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Standard Assets/2D/Sprites/RobotBoyIdleSprite.png
+  artifactKey: Guid(8fb98a6035269e64a998f9b56828fc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/2D/Sprites/RobotBoyIdleSprite.png using Guid(8fb98a6035269e64a998f9b56828fc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328abbf956c23c35383a8bbb37fe8c5a') in 0.275951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/DialogueQuests/Sprites/Square.png
+  artifactKey: Guid(fae180d99d261ca4ba71b81259a164f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Sprites/Square.png using Guid(fae180d99d261ca4ba71b81259a164f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabcb6afcd09f541bb283bf3301be764') in 0.014032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png
+  artifactKey: Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png using Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3acee9e8f3da2771a211033fc174e5') in 0.018841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Standard Assets/2D/Sprites/RobotBoyRunSprite.png
+  artifactKey: Guid(803baf1ea73913f46b25e07d0a79df22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/2D/Sprites/RobotBoyRunSprite.png using Guid(803baf1ea73913f46b25e07d0a79df22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f18fdc40cbb1e55be31ae1a02ec117') in 0.134637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.394692 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_19.png
+  artifactKey: Guid(109f0a0085693e44f83e98382806ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_19.png using Guid(109f0a0085693e44f83e98382806ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b730f6c08de7078562495a96f413f4c4') in 0.026138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_09.png
+  artifactKey: Guid(37c3191fa9bdf5d4d8a5828fd2b889bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_09.png using Guid(37c3191fa9bdf5d4d8a5828fd2b889bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc72981a6a7846b31d0b97ffc7186ef') in 0.018556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_10.png
+  artifactKey: Guid(822c6e8e2cc541546acb783fbcb02851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_10.png using Guid(822c6e8e2cc541546acb783fbcb02851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dcc25b6c0cf1a86a55ced24e201e9e') in 0.017968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_02.png
+  artifactKey: Guid(e5d84ec216989bc49971a9fea63883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_02.png using Guid(e5d84ec216989bc49971a9fea63883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334f0731e91585039c3d4b63034eb7e5') in 0.039899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/DialogueQuests/Sprites/ButtonBlue.png
+  artifactKey: Guid(c225516c795f08244a4392818e8541de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Sprites/ButtonBlue.png using Guid(c225516c795f08244a4392818e8541de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb45197a57e03890d504133d1292cdcb') in 0.024884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png
+  artifactKey: Guid(f588d850485d0ae479d73cf3bd0b7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorUpSprite.png using Guid(f588d850485d0ae479d73cf3bd0b7b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c5dbaedbb96e9f39e94280dee1a5ba') in 0.035343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_09.png
+  artifactKey: Guid(a5a6509bb95b9174bbfeb16135f5360c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_09.png using Guid(a5a6509bb95b9174bbfeb16135f5360c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8d55a626abcd3a366ec78dc50bcc78') in 0.017739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_00.png
+  artifactKey: Guid(e80dbeec32d2fe641873c90cb75abb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_00.png using Guid(e80dbeec32d2fe641873c90cb75abb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab636888bd4e103bcef8e5075767ed59') in 0.018254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png
+  artifactKey: Guid(5485e2f56028a3c4cb54f5caa167377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickOverSprite.png using Guid(5485e2f56028a3c4cb54f5caa167377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c822fcac36bba67088381f47409212d6') in 0.017246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_08.png
+  artifactKey: Guid(d4508d33de699624b8c022032d936042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_08.png using Guid(d4508d33de699624b8c022032d936042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b262109d8906e1228c6d6930ff958c') in 0.019753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_04.png
+  artifactKey: Guid(d31ff68bffe4e4842a7966060225f577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_04.png using Guid(d31ff68bffe4e4842a7966060225f577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e65f9972f2a1f8844029c2db483f051') in 0.015920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_08.png
+  artifactKey: Guid(7a0f96cdaec388143931996ea6f2e2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_08.png using Guid(7a0f96cdaec388143931996ea6f2e2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9f3479330ebfc70e5dce4d5c2461c5') in 0.016327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_18.png
+  artifactKey: Guid(d8de9a3f730d1bd46b9999536693cc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_18.png using Guid(d8de9a3f730d1bd46b9999536693cc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be159a85a0feea4bfd4d0d5899f8f2e') in 0.018422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_11.png
+  artifactKey: Guid(45ee1b90c6163a442bebcec2fe2c2da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_11.png using Guid(45ee1b90c6163a442bebcec2fe2c2da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94ef98ccefc9f3a7c049128a96cb06b') in 0.017355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_00.png
+  artifactKey: Guid(92d46e72a80f8f549851620a03ce3221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_00.png using Guid(92d46e72a80f8f549851620a03ce3221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d366f435bb1dc7940cc4e18204c638') in 0.018205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_happy_04.png
+  artifactKey: Guid(bbe763febe13f1b44b5a7548ef31aa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_happy_04.png using Guid(bbe763febe13f1b44b5a7548ef31aa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9226ae2d517a8e5f7782274e68b482b') in 0.016758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png
+  artifactKey: Guid(5b1a64ea234fb2343b8d0686c51280de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png using Guid(5b1a64ea234fb2343b8d0686c51280de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86488812b36354dabfed3a2fc9b64b99') in 0.016393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_17.png
+  artifactKey: Guid(208e097577e861e4fbb0ce1510fad514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_17.png using Guid(208e097577e861e4fbb0ce1510fad514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec4b438f7b49361eeff691e200bef1d') in 0.014643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_happy_10.png
+  artifactKey: Guid(e56fce0ba9c86e34198f4d16555d7d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_happy_10.png using Guid(e56fce0ba9c86e34198f4d16555d7d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e20d159a7cbdd6c0ac31bb38a7e8118') in 0.018158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_05.png
+  artifactKey: Guid(417998995692a124597890775d0751b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_05.png using Guid(417998995692a124597890775d0751b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c100c2fed4338320a73d12043e3af22') in 0.015289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/DialogueQuests/Sprites/DialogueBox.png
+  artifactKey: Guid(93a6718fbec35da4ea74fbf7955eb750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Sprites/DialogueBox.png using Guid(93a6718fbec35da4ea74fbf7955eb750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3904eedac17218368e8dc12da382dfc5') in 0.026928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_11.png
+  artifactKey: Guid(612abd0b9e9244041ad0a0a43d92c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_11.png using Guid(612abd0b9e9244041ad0a0a43d92c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ed0715fd9bfc0e72cfc38066d31deb') in 0.014921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/DialogueQuests/Sprites/ButtonBlueSquare.png
+  artifactKey: Guid(54bb8704af6c7a1499223a6ef86848ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Sprites/ButtonBlueSquare.png using Guid(54bb8704af6c7a1499223a6ef86848ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f9e147241f5092a6f3119481a7895d') in 0.013942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_14.png
+  artifactKey: Guid(c0bddde5c08daa34a8dff5b9103adb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_14.png using Guid(c0bddde5c08daa34a8dff5b9103adb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1ca82eebaa9daabae5c049afb3b9f7') in 0.016381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_05.png
+  artifactKey: Guid(5a462dcf17f7f614baf1d3287fa12fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_05.png using Guid(5a462dcf17f7f614baf1d3287fa12fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3226dfddc0727976e3a79b13d6d55439') in 0.014570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_17.png
+  artifactKey: Guid(cd7dbf3bef46b4140bf153384f2742d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_17.png using Guid(cd7dbf3bef46b4140bf153384f2742d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c520e69263e646ae237c87b25d8d394') in 0.017021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_01.png
+  artifactKey: Guid(d9cbf38afce4f564fbe9b3f0f239d679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_01.png using Guid(d9cbf38afce4f564fbe9b3f0f239d679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a50b3a26aa73829d5998fa6a475b02d') in 0.017403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_09.png
+  artifactKey: Guid(cce3ad87bf521c94f810325e0c5325b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_09.png using Guid(cce3ad87bf521c94f810325e0c5325b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afb592a2d89ba891c3285d335c07230') in 0.017310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_03.png
+  artifactKey: Guid(3a0bdd147c1c6a44cac7c870b86f3da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_03.png using Guid(3a0bdd147c1c6a44cac7c870b86f3da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15082b995f973ccd47b57be5810f60ff') in 0.019903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_04.png
+  artifactKey: Guid(c49ec67cb64d6e34c8466e8ef98298f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_04.png using Guid(c49ec67cb64d6e34c8466e8ef98298f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707d6579c60e3a2ae5d8c8facd775f29') in 0.019202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_03.png
+  artifactKey: Guid(dbea054a9aa2a1a4da930ccdc05473e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_03.png using Guid(dbea054a9aa2a1a4da930ccdc05473e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247d7b2486dea0133fb47663b40c49d2') in 0.020007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_06.png
+  artifactKey: Guid(c8419e611e0836d45a85015246f2fa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_06.png using Guid(c8419e611e0836d45a85015246f2fa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40c1dd5b42320a302cfb2b3320aa566') in 0.020257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_05.png
+  artifactKey: Guid(8b46ea5b862540048b274b94bb8f1e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_05.png using Guid(8b46ea5b862540048b274b94bb8f1e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf4b1312e41a5e24aa0674bd6c79c1a') in 0.015834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_19.png
+  artifactKey: Guid(3ccf770733120a14989bde1c1bd04e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_19.png using Guid(3ccf770733120a14989bde1c1bd04e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b37a49d4dd3e56c109aaee18687024') in 0.018825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_02.png
+  artifactKey: Guid(f1e2d41ca89fd6f46a3fa713eecaa612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_02.png using Guid(f1e2d41ca89fd6f46a3fa713eecaa612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdd3c591cc525ba2f9526762a22e482') in 0.017894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_06.png
+  artifactKey: Guid(d31363153bf994746803784625495cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_06.png using Guid(d31363153bf994746803784625495cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9e92501dca653dceb48dafd50e8f35') in 0.019116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png
+  artifactKey: Guid(49b611e658efbf443b686a4036f74fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonArrowOverSprite.png using Guid(49b611e658efbf443b686a4036f74fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a59b3aea69040dfaad619557c3bc595') in 0.017091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_06.png
+  artifactKey: Guid(456160e020431c349ac45adbeb994381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_06.png using Guid(456160e020431c349ac45adbeb994381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fa31604f0dd209817bdb61855c0ca3') in 0.037789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_01.png
+  artifactKey: Guid(5b42337829c8a744898b502a4cf2fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_01.png using Guid(5b42337829c8a744898b502a4cf2fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7c43b8d1ae28eecbb235da3af517e4') in 0.021528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_04.png
+  artifactKey: Guid(0eb1b60e3368e0e4dafe9cd505be2ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_04.png using Guid(0eb1b60e3368e0e4dafe9cd505be2ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ad687f9ffe3a84e74a08c3dec7403b') in 0.016910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_01.png
+  artifactKey: Guid(862261b7b87760149a1a08696bc62854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_01.png using Guid(862261b7b87760149a1a08696bc62854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568a10b9b0dcc8f6f61f396b292bd94c') in 0.016046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+  artifactKey: Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png using Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0b55cd65f4bedd305a7cd473e49ff1') in 0.018381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_11.png
+  artifactKey: Guid(e3bea2ac1c8bccf42889ec014f7f72b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_11.png using Guid(e3bea2ac1c8bccf42889ec014f7f72b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050ddf9fe05174c7637a718e89b9d50f') in 0.024384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_10.png
+  artifactKey: Guid(27fdce3deea51e44e9b296c8b7716965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_10.png using Guid(27fdce3deea51e44e9b296c8b7716965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed7a8b448a3975181bac8b93417d54b') in 0.015311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_11.png
+  artifactKey: Guid(c652172740fe5d54c93c86e327b68834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_11.png using Guid(c652172740fe5d54c93c86e327b68834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e17be0fe6a8ef6cee7a10fb4502f770') in 0.020425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_13.png
+  artifactKey: Guid(cfca7c1e80124cd45b38bd67e7333f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_13.png using Guid(cfca7c1e80124cd45b38bd67e7333f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72be39fed2e6984ca6a8bf9e84754aba') in 0.017587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_19.png
+  artifactKey: Guid(a95a5b7ca7196cb41a490928c16774fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_19.png using Guid(a95a5b7ca7196cb41a490928c16774fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fcbb4c61aa1e545f6fc018fdbfb8e6') in 0.028267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_01.png
+  artifactKey: Guid(a9ea2fabbafce4141b77291dae406499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_01.png using Guid(a9ea2fabbafce4141b77291dae406499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4b5c1d8e567d137a4ec41f40a4aa0e') in 0.017878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_05.png
+  artifactKey: Guid(8fd6723b118fbc24e88f4d9e768f2015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_05.png using Guid(8fd6723b118fbc24e88f4d9e768f2015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd372dcc12387d153d572d74e21100f37') in 0.031710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_18.png
+  artifactKey: Guid(2932240723ddf2541854554394105cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_18.png using Guid(2932240723ddf2541854554394105cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49848d6c25266fccd0e4d3c67dad583f') in 0.021619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png
+  artifactKey: Guid(0c6271a290ef75b4c97d58746c86c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleFullUpSprite.png using Guid(0c6271a290ef75b4c97d58746c86c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0814b980f3d4cf1da81f76a05f7031e') in 0.035783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_05.png
+  artifactKey: Guid(151746298e434b146abbcf9eba16dc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_05.png using Guid(151746298e434b146abbcf9eba16dc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4031c47be0e613f32acde0d1ae6ff2f1') in 0.024910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_15.png
+  artifactKey: Guid(f4e769231429dbb47856a8ab7315d248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_15.png using Guid(f4e769231429dbb47856a8ab7315d248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6931d6161f37e0b65222055f1f563c') in 0.030537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_07.png
+  artifactKey: Guid(4934a5579d013704fae0d85c8149137f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_07.png using Guid(4934a5579d013704fae0d85c8149137f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55f0d5125d5cb95edd56081535aa87d') in 0.017081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_00.png
+  artifactKey: Guid(a4561c996d33818488819ca3a66deb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_00.png using Guid(a4561c996d33818488819ca3a66deb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cc89b4d5b4da3ec203f8b1e54ea9b4') in 0.024025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_03.png
+  artifactKey: Guid(470982d2c59088a49a27c215f2db84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_03.png using Guid(470982d2c59088a49a27c215f2db84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4499f3d2269b15ef3cd40e92fb7636c') in 0.018376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Standard Assets/2D/Sprites/CratePinkGridSprite.png
+  artifactKey: Guid(12ef7cbdfe0e143fa858a324456c8979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/2D/Sprites/CratePinkGridSprite.png using Guid(12ef7cbdfe0e143fa858a324456c8979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc596a8b7eeba3d8774b7451c462a2b') in 0.017142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_06.png
+  artifactKey: Guid(662e4c227044e88478215e67a06cbb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_06.png using Guid(662e4c227044e88478215e67a06cbb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f351ec7e94397e3ab67ca112c104bec1') in 0.018029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_01.png
+  artifactKey: Guid(0c00ce0ae6f3e1e41ac5de8a32c7129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_01.png using Guid(0c00ce0ae6f3e1e41ac5de8a32c7129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d923d1d2fb9e976e19f808c8bd23805') in 0.019159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_02.png
+  artifactKey: Guid(66d736022f7fd3245967e92b5b04fb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_02.png using Guid(66d736022f7fd3245967e92b5b04fb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac0389f9b5792f98c977d3908706e90') in 0.021361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_11.png
+  artifactKey: Guid(4e7257642edf94544b9b0be52631944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_11.png using Guid(4e7257642edf94544b9b0be52631944b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa3b5eae12f4bb06df23f775216de9b') in 0.017167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_happy_07.png
+  artifactKey: Guid(3e04cc0d560e7004f90629e12eb33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_happy_07.png using Guid(3e04cc0d560e7004f90629e12eb33623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edebc9f49b8b7cf054be44b03311c72') in 0.017608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_04.png
+  artifactKey: Guid(45e4e607d4862234f9d67da3fa655e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_04.png using Guid(45e4e607d4862234f9d67da3fa655e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860dc4b72a84ecf4512f3b72cafc96f9') in 0.021699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_10.png
+  artifactKey: Guid(e99a57ca953294c4d8658ad623550e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_happy_10.png using Guid(e99a57ca953294c4d8658ad623550e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cbd6d38d26970dd61710f2d581b4eb') in 0.017518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_10.png
+  artifactKey: Guid(53f09172cb37ad446b7e20489e5cf47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_10.png using Guid(53f09172cb37ad446b7e20489e5cf47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e77dc275c7421e870683dc099189625') in 0.018835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_06.png
+  artifactKey: Guid(e275ce9f6cd1e724fbe4bcfd152aaa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_06.png using Guid(e275ce9f6cd1e724fbe4bcfd152aaa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ada447a12547cde0ec6b78babe756b4') in 0.016412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_09.png
+  artifactKey: Guid(f1bcc1444365b1f478d8e38b9c5498c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_09.png using Guid(f1bcc1444365b1f478d8e38b9c5498c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79768f80011253568a2d85400f5e2f7b') in 0.017957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_07.png
+  artifactKey: Guid(6dbca8d2e2cc554429da60bb11a737b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_07.png using Guid(6dbca8d2e2cc554429da60bb11a737b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56be1c1f69ac121ecf4355bd872b6596') in 0.015818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_10.png
+  artifactKey: Guid(171b77a92a7d77041b8a9e65229be478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_10.png using Guid(171b77a92a7d77041b8a9e65229be478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cc0f8c14d88a606c07d41fc5ad49ac') in 0.015656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_07.png
+  artifactKey: Guid(681ff2f54eb9ab940969ea7b9ddbb9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_07.png using Guid(681ff2f54eb9ab940969ea7b9ddbb9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b1f835a09493d4ef852d63408972ca') in 0.014811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_15.png
+  artifactKey: Guid(7a9a2b2d22e90734d8e3283c17fe200a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_15.png using Guid(7a9a2b2d22e90734d8e3283c17fe200a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac8f02d157626cb3f05578064ab67da') in 0.021588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_12.png
+  artifactKey: Guid(4d690564358597b4e9d5087ef5b6de36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_12.png using Guid(4d690564358597b4e9d5087ef5b6de36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178e70f5aee529e9e5c95f4e2f17f234') in 0.017043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_08.png
+  artifactKey: Guid(a32e2e1bb9c8dbb428f965c39ee4d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_neutral_08.png using Guid(a32e2e1bb9c8dbb428f965c39ee4d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e4306de4c9705e2d2743ad8f71b3f9') in 0.018195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_03.png
+  artifactKey: Guid(2365e6993a7ac8d4da44c824aa680b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_sad_03.png using Guid(2365e6993a7ac8d4da44c824aa680b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6db570999ceff1489d7bab36525c09b') in 0.014371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png
+  artifactKey: Guid(9d7c6e4896067aa4fa512a00f692ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png using Guid(9d7c6e4896067aa4fa512a00f692ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaca791f41a64092fb6ced9d97d8fa6') in 0.014601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_happy_03.png
+  artifactKey: Guid(0496b1535f5b41840a0bb66066907f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_happy_03.png using Guid(0496b1535f5b41840a0bb66066907f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3797fb4781ac7154721c7c69f7a4cac7') in 0.015535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_07.png
+  artifactKey: Guid(cb229463fd61aab42948209dd2f935be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_neutral_07.png using Guid(cb229463fd61aab42948209dd2f935be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a41db41df878a1bd5657913cbf288c') in 0.016134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_09.png
+  artifactKey: Guid(e26124fb70737c04e9a4d7a4dfb7cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_09.png using Guid(e26124fb70737c04e9a4d7a4dfb7cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c9595e5742ebc50e0df5a86aab8622') in 0.016120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_02.png
+  artifactKey: Guid(e7d31cc6b38d6cf429186a2ea4cdaa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_sad_02.png using Guid(e7d31cc6b38d6cf429186a2ea4cdaa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a783534e2c87118fb4d202d9af8e95') in 0.018357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_04.png
+  artifactKey: Guid(f78ee2d9bb24e344893551fcb8a18d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/boy_neutral_04.png using Guid(f78ee2d9bb24e344893551fcb8a18d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9861547afb535b00d310bdef3c08dbb') in 0.023587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_05.png
+  artifactKey: Guid(22e38afb0c819fa48ad7b12dece7ad5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/girl_happy_05.png using Guid(22e38afb0c819fa48ad7b12dece7ad5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdf381d813f3b1a8bc1ae288ecab7a5') in 0.016684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DialogueQuests/Demo/Portraits/arrow.png
+  artifactKey: Guid(2aa4bdb86c02e8e4d956be50c5c31766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/Portraits/arrow.png using Guid(2aa4bdb86c02e8e4d956be50c5c31766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457dab7d82beb1a14d30fe4636784e10') in 0.022182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_04.png
+  artifactKey: Guid(afee40596d4885249a6bd38af7b14beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueQuests/Demo/PortraitsAnim/ghost_sad_04.png using Guid(afee40596d4885249a6bd38af7b14beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df797f92316ca1ddaf75e2e4f916aaae') in 0.016168 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
